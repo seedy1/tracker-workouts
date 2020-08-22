@@ -27,6 +27,7 @@ connection.once("open", ()=>{
 app.use("/exercises", exercisesRoute);
 app.use("/users", usersRoute);
 
+
 app.listen(port, ()=>{
     console.log(`Runnning on port ${port}`);
 });
